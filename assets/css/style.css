@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(240, 240, 135);
+    padding: 10px 20px;
+    font-size: 24px;
+}
+nav li:hover{
+    text-decoration:underline;
+}
+nav .redes{
+    padding: 10px;
+}
+nav .redes img:hover{
+    scale: 1.5;
+}
+nav .logo{
+    padding: 10px;
+}
+header{
+    background-image: url(../img/fondo/panel\ electrico\ \(5\).jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.bienvenida{
+    display: flex;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+}
+.bienvenida img{
+    width: 500px;
+    margin-left: 200px;
+}
+.bienvenida p{
+    width: 60%;
+    height: 200px;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 60px;
+    margin-top: 190px;
+}
+.servicio1{
+    display: flex;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+}
+.servicio1 img{
+    width: 500px;
+    margin-left: 200px;
+}
+.servicio1 h2{
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 50px;
+    padding: 60px;
+    align-items: center;
+}
+.servicio1 p{
+    width: 60%;
+    height: 200px;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 60px;
+    margin-top:auto
+}
+.servicio2{
+    display: flex;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+}
+.servicio2 img{
+    width: 500px;
+    margin-left: 200px;
+}
+.servicio2 h2{
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 50px;
+    padding: 60px;
+    align-items: center;
+}
+.servicio2 p{
+    width: 60%;
+    height: 200px;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 60px;
+    margin-top:auto
+}
+.servicio3{
+    display: flex;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+}
+.servicio3 img{
+    width: 500px;
+    margin-left: 200px;
+}
+.servicio3 h2{
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 50px;
+    padding: 60px;
+    align-items: center;
+}
+.servicio3 p{
+    width: 60%;
+    height: 200px;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 60px;
+    margin-top:auto
+}
+.servicio4{
+    display: flex;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+}
+.servicio4 img{
+    width: 500px;
+    margin-left: 200px;
+}
+.servicio4 h2{
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 50px;
+    padding: 60px;
+    align-items: center;
+}
+.servicio4 p{
+    width: 60%;
+    height: 200px;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 60px;
+    margin-top:auto
+}
+.contenedorProyectos{
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+    width: 100%;
+    height: 600px;
+}
+.proyectos{
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+}
+.presentacionProyectos{
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+.fotosProyectos{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+.contenedorNosotros{
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+    width: 100%;
+    height: 300px;
+}
+.nosotros{
+    margin-top: 20px;
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+}
+.presentacionNosotros{
+    margin-top: 20px;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87);
+    width: 100%;
+    height: 500px;
+}
+.contacto label{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+.contacto input{
+    font-size: 16px;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.contacto textarea{
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+.btnenviar{
+    height: 20px;
+    margin-top: 20px;
+}
+.redesFooter{
+    text-align: center;
+    margin: 30px;
+    transition: 1s;
+}
+.redesFooter img:hover{
+    transform:scale(1.1, 1.1)
+}
