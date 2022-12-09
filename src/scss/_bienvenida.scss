@@ -1,0 +1,17 @@
+.bienvenida{
+    display: flex;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+    img{
+        width: 500px;
+        margin-left: 200px;
+    }
+    p{
+        width: 60%;
+        height: 200px;
+        font-size: 24px;
+        font-style: italic;
+        margin-left: 60px;
+        margin-top: 190px;
+    }
+}

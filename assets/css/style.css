@@ -1,228 +1,243 @@
-*{
-    margin: 0%;
-    padding: 0%;
+nav {
+  background-color: rgb(3, 3, 3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav{
-    background-color: rgb(3, 3, 3);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav ul {
+  list-style-type: none;
+  display: flex;
 }
-nav ul{
-    list-style-type: none;
-    display: flex;
+nav li a {
+  text-decoration: none;
+  color: rgb(240, 240, 135);
+  padding: 10px 20px;
+  font-size: 24px;
 }
-nav li a{
-    text-decoration: none;
-    color: rgb(240, 240, 135);
-    padding: 10px 20px;
-    font-size: 24px;
+nav li a:hover {
+  text-decoration: underline;
 }
-nav li:hover{
-    text-decoration:underline;
+nav li a .redes {
+  padding: 10px;
 }
-nav .redes{
-    padding: 10px;
+nav li a .redes img:hover {
+  scale: 1.5;
 }
-nav .redes img:hover{
-    scale: 1.5;
+nav li a .logo {
+  padding: 10px;
 }
-nav .logo{
-    padding: 10px;
-}
-header{
-    background-image: url(../img/fondo/panel\ electrico\ \(5\).jpg);
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-}
-.bienvenida{
-    display: flex;
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87) ;
-}
-.bienvenida img{
-    width: 500px;
-    margin-left: 200px;
-}
-.bienvenida p{
-    width: 60%;
-    height: 200px;
-    font-size: 24px;
-    font-style: italic;
-    margin-left: 60px;
-    margin-top: 190px;
-}
-.servicio1{
-    display: flex;
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87) ;
-}
-.servicio1 img{
-    width: 500px;
-    margin-left: 200px;
-}
-.servicio1 h2{
-    font-size: 32px;
-    font-style: italic;
-    margin-top: 50px;
-    padding: 60px;
-    align-items: center;
-}
-.servicio1 p{
-    width: 60%;
-    height: 200px;
-    font-size: 24px;
-    font-style: italic;
-    margin-left: 60px;
-    margin-top:auto
-}
-.servicio2{
-    display: flex;
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87) ;
-}
-.servicio2 img{
-    width: 500px;
-    margin-left: 200px;
-}
-.servicio2 h2{
-    font-size: 32px;
-    font-style: italic;
-    margin-top: 50px;
-    padding: 60px;
-    align-items: center;
-}
-.servicio2 p{
-    width: 60%;
-    height: 200px;
-    font-size: 24px;
-    font-style: italic;
-    margin-left: 60px;
-    margin-top:auto
-}
-.servicio3{
-    display: flex;
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87) ;
-}
-.servicio3 img{
-    width: 500px;
-    margin-left: 200px;
-}
-.servicio3 h2{
-    font-size: 32px;
-    font-style: italic;
-    margin-top: 50px;
-    padding: 60px;
-    align-items: center;
-}
-.servicio3 p{
-    width: 60%;
-    height: 200px;
-    font-size: 24px;
-    font-style: italic;
-    margin-left: 60px;
-    margin-top:auto
-}
-.servicio4{
-    display: flex;
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87) ;
-}
-.servicio4 img{
-    width: 500px;
-    margin-left: 200px;
-}
-.servicio4 h2{
-    font-size: 32px;
-    font-style: italic;
-    margin-top: 50px;
-    padding: 60px;
-    align-items: center;
-}
-.servicio4 p{
-    width: 60%;
-    height: 200px;
-    font-size: 24px;
-    font-style: italic;
-    margin-left: 60px;
-    margin-top:auto
-}
-.contenedorProyectos{
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87) ;
-    width: 100%;
-    height: 600px;
-}
-.proyectos{
-    font-size: 32px;
-    font-style: italic;
-    text-align: center;
-}
-.presentacionProyectos{
-    font-size: 24px;
-    font-style: italic;
-    text-align: center;
-}
-.fotosProyectos{
-    display: flex;
-    justify-content:space-between;
-    margin-left: 80px;
-    margin-top: 30px;
 
+* {
+  margin: 0%;
+  padding: 0%;
 }
-.contenedorNosotros{
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87) ;
-    width: 100%;
-    height: 300px;
+
+header {
+  background-image: url(../img/fondo/panel\ electrico\ \(5\).jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
 }
-.nosotros{
-    margin-top: 20px;
-    font-size: 32px;
-    font-style: italic;
-    text-align: center;
+
+.bienvenida {
+  display: flex;
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
 }
-.presentacionNosotros{
-    margin-top: 20px;
-    font-size: 24px;
-    font-style: italic;
-    text-align: center;
+.bienvenida img {
+  width: 500px;
+  margin-left: 200px;
 }
-.contacto{
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    background-color:rgb(216, 255, 87);
-    width: 100%;
-    height: 500px;
+.bienvenida p {
+  width: 60%;
+  height: 200px;
+  font-size: 24px;
+  font-style: italic;
+  margin-left: 60px;
+  margin-top: 190px;
 }
-.contacto label{
-    font-size: 20px;
-    width: 50px;
-    height: 50px;
+
+.servicio1 {
+  display: flex;
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
 }
-.contacto input{
-    font-size: 16px;
-    width: 500px;
-    height: 100px;
-    margin-bottom: 20px;
+.servicio1 img {
+  width: 500px;
+  margin-left: 200px;
 }
-.contacto textarea{
-    width: 500px;
-    height: 300px;
-    margin-top: 30px;
+.servicio1 h2 {
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 50px;
+  padding: 60px;
+  align-items: center;
 }
-.btnenviar{
-    height: 20px;
-    margin-top: 20px;
+.servicio1 p {
+  width: 60%;
+  height: 200px;
+  font-size: 24px;
+  font-style: italic;
+  margin-left: 60px;
+  margin-top: auto;
 }
-.redesFooter{
-    text-align: center;
-    margin: 30px;
-    transition: 1s;
+
+.servicio2 {
+  display: flex;
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
 }
-.redesFooter img:hover{
-    transform:scale(1.1, 1.1)
+.servicio2 img {
+  width: 500px;
+  margin-left: 200px;
+}
+.servicio2 h2 {
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 50px;
+  padding: 60px;
+  align-items: center;
+}
+.servicio2 p {
+  width: 60%;
+  height: 200px;
+  font-size: 24px;
+  font-style: italic;
+  margin-left: 60px;
+  margin-top: auto;
+}
+
+.servicio3 {
+  display: flex;
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
+}
+.servicio3 img {
+  width: 500px;
+  margin-left: 200px;
+}
+.servicio3 h2 {
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 50px;
+  padding: 60px;
+  align-items: center;
+}
+.servicio3 p {
+  width: 60%;
+  height: 200px;
+  font-size: 24px;
+  font-style: italic;
+  margin-left: 60px;
+  margin-top: auto;
+}
+
+.servicio4 {
+  display: flex;
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
+}
+.servicio4 img {
+  width: 500px;
+  margin-left: 200px;
+}
+.servicio4 h2 {
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 50px;
+  padding: 60px;
+  align-items: center;
+}
+.servicio4 p {
+  width: 60%;
+  height: 200px;
+  font-size: 24px;
+  font-style: italic;
+  margin-left: 60px;
+  margin-top: auto;
+}
+
+.contenedorProyectos {
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
+  width: 100%;
+  height: 600px;
+}
+.contenedorProyectos .proyectos {
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+}
+.contenedorProyectos .presentacionProyectos {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+.contenedorProyectos .fotosProyectos {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.contenedorNosotros {
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
+  width: 100%;
+  height: 300px;
+}
+.contenedorNosotros .nosotros {
+  margin-top: 20px;
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+}
+.contenedorNosotros .presentacionNosotros {
+  margin-top: 20px;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  background-color: rgb(216, 255, 87);
+  width: 100%;
+  height: 500px;
+}
+.contacto label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.contacto input {
+  font-size: 16px;
+  width: 500px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.contacto textarea {
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+}
+.contacto .btnenviar {
+  height: 20px;
+  margin-top: 20px;
+}
+
+.redesFooter {
+  text-align: center;
+  margin: 30px;
+  transition: 1s;
+  margin-top: 100px;
+}
+.redesFooter img:hover {
+  transform: scale(1.1, 1.1);
 }

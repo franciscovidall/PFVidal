@@ -1,0 +1,24 @@
+.servicio3{
+    display: flex;
+    margin-top: 60px;
+    background-color:rgb(216, 255, 87) ;
+    img{
+        width: 500px;
+        margin-left: 200px;
+    }
+    h2{
+        font-size: 32px;
+        font-style: italic;
+        margin-top: 50px;
+        padding: 60px;
+        align-items: center;
+    }
+    p{
+        width: 60%;
+        height: 200px;
+        font-size: 24px;
+        font-style: italic;
+        margin-left: 60px;
+        margin-top:auto
+    }
+}

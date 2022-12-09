@@ -1,0 +1,28 @@
+nav{
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        list-style-type: none;
+        display: flex;
+    }
+    li a{
+        text-decoration: none;
+        color: rgb(240, 240, 135);
+        padding: 10px 20px;
+        font-size: 24px;
+        &:hover{
+            text-decoration:underline;
+        }
+        .redes{
+            padding: 10px;
+        }
+        .redes img:hover{
+            scale: 1.5;
+        }
+        .logo{
+            padding: 10px;
+        }
+    }
+}
